@@ -1,0 +1,25 @@
+{
+  "name": "bankchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "mihirsinh parmar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "docparser-node": "^1.2.2",
+    "dotenv": "^8.2.0",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "nodemon": "^2.0.3"
+  }
+}
